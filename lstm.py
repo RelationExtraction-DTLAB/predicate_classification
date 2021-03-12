@@ -13,6 +13,7 @@ from utility.tokenizer_utils import word_tokenize
 
 import keras.backend as K
 
+
 class WordVecLstmSigmoid(object):
     model_name = 'lstm_sigmoid_predicate'
 
